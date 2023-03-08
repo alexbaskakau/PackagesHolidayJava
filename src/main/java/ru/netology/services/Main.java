@@ -6,7 +6,7 @@ public class Main {
         int income = 100_00;
         int expenses = 3000;
         int amount = 20_000;
-        int month = service.calculate(income, expenses , amount);
+        int month = service.calculate(income, expenses, amount);
         System.out.println(month);
     }
 }
